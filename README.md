@@ -28,3 +28,13 @@ Repositório destinado às atividades do curso [Angular 9 - Essencial](https://w
   ```
 
   **Obs:** O backend estará rodando na porta 3001. Caso deseje alterá-la, edite o script `start` no arquivo `package.json`.
+
+### Rodando o backend
+
+- Com o terminal aberto na pasta `frontend` execute o seguinte comando:
+
+  ```
+  npm start
+  ```
+
+  **Obs:** O frontend estará rodando, por padrão na porta 4200.
