@@ -7,6 +7,8 @@
 
 Repositório destinado às atividades do curso [Angular 9 - Essencial](https://www.cod3r.com.br/courses/angular-9-essencial) fornecido pela [Cod3r](https://www.cod3r.com.br/).
 
+> *Status do Projeto: Em desenvolvimento ⚠*
+
 </div>
 
 ## ⚙ Configuração do ambiente
