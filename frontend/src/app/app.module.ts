@@ -17,6 +17,9 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { RedDirective } from './directives/red.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
     declarations: [
@@ -39,7 +42,10 @@ import { HttpClientModule } from '@angular/common/http';
         MatListModule,
         MatButtonModule,
         MatSnackBarModule,
-        HttpClientModule
+        HttpClientModule,
+        FormsModule,
+        MatFormFieldModule,
+        MatInputModule
     ],
     providers: [],
     bootstrap: [AppComponent]
