@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
 import { Router } from '@angular/router';
 import { Product } from '../product.model';
+import { HeaderService } from '../../template/header/header.service';
 
 @Component({
   selector: 'app-product-create',
@@ -10,7 +11,17 @@ import { Product } from '../product.model';
 })
 export class ProductCreateComponent implements OnInit {
 
-  constructor(private productService: ProductService, private router: Router) { }
+  constructor(
+    private productService: ProductService,
+    private router: Router,
+    private headerService: HeaderService
+  ) {
+    headerService.headerData = {
+      title: 'Adicionar Produto',
+      icon: 'add',
+      routeUrl: '/products/create'
+    }
+  }
 
   product: Product = {
     name: '',
