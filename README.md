@@ -7,7 +7,7 @@
 
 Repositório destinado às atividades do curso [Angular 9 - Essencial](https://www.cod3r.com.br/courses/angular-9-essencial) fornecido pela [Cod3r](https://www.cod3r.com.br/).
 
-> *Status do Projeto: Concluído ✔*
+*Status do Projeto: Concluído ✔*
 
 <a href="https://www.cod3r.com.br/certificates/4tau3gswqy"><img src="https://img.shields.io/badge/Certificado-DD0031?style=plastic&logo=angular&logoColor=white"></a>
 
