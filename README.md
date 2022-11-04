@@ -15,7 +15,10 @@ Repositório destinado às atividades do curso [Angular 9 - Essencial](https://w
 
 ## ⚙ Configuração do ambiente
 
-1. Clone o repositório na sua máquina
+1. Clone o repositório na sua máquina com o seguinte comando:
+   ```
+   git clone https://github.com/rafaferraz/cod3r-angular-9.git
+   ```
 2. Instale as dependências executando o seguinte comando na raíz do projeto:
    ```
    npm install
